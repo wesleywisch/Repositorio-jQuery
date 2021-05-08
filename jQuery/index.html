@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <style>
+        #square{
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            display: none;
+            position: absolute;
+        }
+        #green{
+            width: 300px;
+            height: 300px;
+            background-color: green;
+            position: absolute;
+        }
+        .item{
+            font-size: 20px;
+            background-color: grey;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            color: white;
+            padding: 5px;
+        }
+        .rect{
+            width: 300px;
+            height: 100px;
+            background-color: red;
+        }
+        .bg-blue{
+            background-color: blue;
+        }
+        .box{
+            box-sizing: border-box;
+            width: 500px;
+            background: gray;
+            padding: 10px;
+            border: 5px solid black;
+            margin: 15px;
+            color: white;
+            font-size: 20px;
+        }
+        .div2{
+            background: grey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <h1 class="titulo">Titulo h1</h1> -->
+
+    <!-- <button id="button">começar</button>
+    <button id="stop">stop</button>
+    <div id="square"></div>
+    <div id="green"></div> -->
+
+
+    <!--selecionando elementos filhos-->
+
+    <!-- <h1>Minha Lista 1</h1>
+    <ul id="lista1">
+        <li class="item1">Item 1</li>
+        <li class="item2">Item 2</li>
+        <li class="item3">Item 3</li>
+        <li class="item4">Item 4</li>
+        <li class="item5">Item 5</li>
+    </ul>
+
+    <h1>Minha Lista 2</h1>
+    <ul id="lista2">
+        <li class="item1">Item 1</li>
+        <li class="item2">Item 2</li>
+        <li class="item3">Item 3</li>
+        <li class="item4">Item 4</li>
+        <li class="item5">Item 5</li>
+    </ul> -->
+
+
+    <!--lendo o conteudo de um elemento-->
+
+    <!-- <h1>Minha lista 1</h1>
+    <input type="text" id="novo" name="novo" value="">
+    <ul id="lista1">
+        <li key=1 class="item1" name = "Item">Item 1</li>
+        <li key=2 class="item2" name = "Item">Item 2</li>
+        <li key=3 class="item3" name = "Item">Item 3</li>
+        <li key=4 class="item4" name = "Item">Item 4</li>
+        <li key=5 class="item5" name = "Item">Item 5</li>
+    </ul> -->
+
+    <!-- <ul id="lista2">
+        <li key=1 class="item" name = "Item">Item 1</li>
+        <li key=2 class="item" name = "Item">Item 2</li>
+        <li key=3 class="item" name = "Item">Item 3</li>
+        <li key=4 class="item" name = "Item">Item 4</li>
+        <li key=5 class="item" name = "Item">Item 5</li>
+    </ul> -->
+
+    <!--modificando o css-->
+    <!-- <div class="rect">Texto padrão</div> -->
+    <!-- <h1 class="titulo">Lista de compras</h1> -->
+
+
+    <!--dimensoes-->
+    <!-- <div class="box"></div> -->
+
+    <!--elementos irmaos-->
+
+    <!-- <div>
+        <div id="div1">Div 1</div>
+        <div id="div2">Div 2</div>
+        <div id="div3">Div 3</div>
+        <div id="div4">Div 4</div>
+        <div id="div5">Div 5</div>
+    </div>
+    <div>
+        <div id="div6">Div 6</div>
+        <div id="div7">Div 7</div>
+        <div id="div8">Div 8</div>
+        <div id="div9">Div 9</div>
+        <div id="div10">Div 10</div>
+    </div> -->
+
+    <!--Filter, last, first e eq-->
+
+    <!-- <div id="container1">
+        <div class="div1" id="div1">Div 1</div>
+        <div class="div2" id="div2">Div 2</div>
+        <div class="div1" id="div3">Div 3</div>
+        <div class="div2" id="div4">Div 4</div>
+        <div class="div1" id="div5">Div 5</div>
+    </div>
+    <div id="container2">
+        <div class="div2" id="div6">Div 6</div>
+        <div class="div1" id="div7">Div 7</div>
+        <div class="div2" id="div8">Div 8</div>
+        <div class="div1" id="div9">Div 9</div>
+        <div class="div2" id="div10">Div 10</div>
+    </div> -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src= "script.js"></script>
+</body>
+</html>
