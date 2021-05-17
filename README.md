@@ -1,6 +1,6 @@
 # Repositório-jQuery
 
-### 📚 Repositório apenas dedicado para registrar os estudos.
+## 📚 Repositório apenas dedicado para registrar os estudos.
 
 Entre em contato comigo!
 
